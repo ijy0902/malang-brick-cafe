@@ -1,2 +1,14 @@
-# malang-brick-cafe
-A cute pastel brick breaker game
+# 🍮 말랑 브릭 카페
+
+파스텔 마카롱과 푸딩 공으로 즐기는 귀여운 벽돌깨기. `index.html`을 브라우저로 열면 설치 없이 플레이할 수 있습니다.
+
+- 방향키 / A·D / 마우스 / 터치로 이동
+- 스페이스바로 시작 및 일시정지
+- 3개 스테이지, 하트 3개, 콤보, 선택형 효과음
+- 최고 점수는 현재 브라우저에 저장
+
+## GitHub Pages
+
+저장소의 main 브랜치에 업로드하고 Settings → Pages → Source에서 GitHub Actions를 선택하면 포함된 워크플로가 배포합니다.
+
+외부 이미지와 라이브러리 없이 동작하며, Google Fonts를 사용할 수 없으면 시스템 글꼴로 표시됩니다.

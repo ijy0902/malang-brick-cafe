@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff6ef">
+<title>말랑 브릭 카페 · 귀여운 벽돌깨기</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><a class="brand" href="./">🍮 MALANG CLUB</a><button id="sound" class="icon" aria-label="효과음 켜기">소리 OFF</button></header>
+<section class="intro"><span class="eyebrow">A LITTLE BREAK, A LITTLE JOY</span><h1>말랑 브릭 카페<span>달콤하게, 톡톡!</span></h1><p>바쁜 하루는 잠깐 내려놓고,<br class="mobile"> 말랑한 친구들과 벽돌을 깨볼까요?</p></section>
+<section class="game-wrap" aria-label="벽돌깨기 게임">
+<div class="scoreboard"><div><small>SCORE</small><strong id="score">0000</strong></div><div class="stage"><small>STAGE</small><strong id="stage">01 / 03</strong></div><div class="life"><small>HEARTS</small><strong id="lives" aria-label="남은 목숨 3">♥ ♥ ♥</strong></div></div>
+<div class="board"><canvas id="game" width="800" height="540" aria-label="방향키 또는 마우스와 터치로 패들을 움직이세요"></canvas><div id="overlay" class="overlay"><div class="mascot">🍮</div><span class="tag">FRESHLY BAKED FUN</span><h2 id="message">오늘도 말랑한 하루!</h2><p id="detail">푸딩 공을 통통 튕겨<br>알록달록 마카롱을 모두 모아보세요.</p><button id="play" class="primary">게임 시작 <span>↗</span></button><small id="hint">SPACE 키로도 시작할 수 있어요</small></div><div id="toast" aria-live="polite"></div></div>
+<div class="game-bottom"><span>✦ <span id="best">BEST 0</span></span><div><button id="pause">Ⅱ 일시정지</button><button id="restart">↻ 다시하기</button></div></div>
+</section>
+<section class="guide"><div><span class="guide-icon">↔</span><p><b>살랑살랑 움직이기</b><span>방향키 · 마우스 · 터치</span></p></div><div><span class="guide-icon">␣</span><p><b>잠깐 쉬어가기</b><span>스페이스바 · 일시정지</span></p></div><div><span class="guide-icon">♡</span><p><b>세 번의 달콤한 기회</b><span>공을 놓치지 않게 받아주세요</span></p></div></section>
+<footer>MADE FOR YOUR HAPPY LITTLE BREAK <span>✿</span></footer>
+</main><script src="game.js"></script>
+</body></html>
